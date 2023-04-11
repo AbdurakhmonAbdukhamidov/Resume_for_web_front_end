@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #362626;
+}
+
+
+.logo{
+    width: 80%;
+    margin-left: 10px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.btns{
+    width: 100%;
+    height: 398px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.btns ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.btns ul li{
+    width: 90%;
+    height: 83px;
+    background: #2B2D3E;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border: 1px solid #2B2D3E;
+    color: #fff;
+    border-radius : 0 25px 25px 0;
+    box-shadow: 0 11px #0669FD;
+    padding-left: 5px;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Barlow', sans-serif;
+}
+
+.btns ul .li_active{
+    background: #fff;
+    color: #000;
+}
+
+.account{
+    width: 70%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.account .img{
+    width: 74px;
+    height: 65px;
+    overflow: hidden;
+}
+
+.account .img img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+    border-radius: 50px;
+
+}
+
+.account .name{
+    width: 100%;
+    margin-left: 15px;
+    font-size: 19px;
+    color: #fff;
+    font-weight: 400;
+}
+
+body{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    width: 30%;
+}
+
