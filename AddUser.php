@@ -32,6 +32,8 @@
     </div>
     </nav>
 
+    <section class="main"></section>
+
     <script src="/javaScript/Nav.js "></script>
 </body>
 </html>
