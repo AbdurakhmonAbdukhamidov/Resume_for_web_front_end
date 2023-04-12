@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Style/UiElements/Active.css">
     <link rel="stylesheet" href="/Style/UiElements/Nav.css">
+    <link rel="stylesheet" href="/Style/AddUser.css">
     <title>Document</title>
 </head>
 <body>
@@ -32,7 +33,19 @@
     </div>
     </nav>
 
-    <section class="main"></section>
+    <section class="main">
+        
+    <div class="container">
+            <div class="name">
+              <h1>Add user</h1>
+            </div>
+            <div class="main">
+              //
+            </div>
+        </div>
+        
+    </div>
+    </section>
 
     <script src="/javaScript/Nav.js "></script>
 </body>
