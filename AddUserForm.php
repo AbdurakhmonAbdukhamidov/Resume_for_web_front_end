@@ -18,6 +18,9 @@
             
             <div class="block1">
                 <div class="photo">
+                    <div class="img">
+                    <img src="/images/svg-file-format-variant.png" alt="">
+                    </div>
                    <input type="file">
                 </div>
                 <div class="inputs">
