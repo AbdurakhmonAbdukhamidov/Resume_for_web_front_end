@@ -35,18 +35,21 @@
 
     <section class="main">
         
-    <div class="container">
+    <div class="container-main">
             <div class="name">
               <h1>Add user</h1>
             </div>
-            <div class="main">
-              //
+            <div class="main">  
+                 <div class="container1">
+                     <div class="pluse">Add user</div>
+                 </div>
             </div>
-        </div>
+    </div>
         
     </div>
     </section>
 
     <script src="/javaScript/Nav.js "></script>
+    <script src="/javaScript/AddUser.js"></script>
 </body>
 </html>

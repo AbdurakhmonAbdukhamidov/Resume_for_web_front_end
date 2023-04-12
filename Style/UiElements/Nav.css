@@ -93,11 +93,3 @@
     font-weight: 400;
 }
 
-body{
-    display: flex;
-    justify-content: space-between;
-}
-nav{
-    width: 30%;
-}
-

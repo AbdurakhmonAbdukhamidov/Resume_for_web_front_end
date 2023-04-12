@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Style/indexStyle.css">
     <link rel="stylesheet" href="/Style/UiElements/Active.css">
     <link rel="stylesheet" href="/Style/UiElements/Nav.css">
+    <link rel="stylesheet" href="/Style/indexStyle.css">
     <title>Document</title>
 </head>
 <body>
@@ -32,6 +32,20 @@
         </div>
     </div>
     </nav>
+
+    <section class="main">
+        
+        <div class="container-main">
+                <div class="name">
+                  <h1>Dashboard</h1>
+                </div>
+                <div class="main">
+                
+                </div>
+        </div>
+            
+        </div>
+        </section>
 
     <script src="/javaScript/Nav.js"></script>
 </body>
