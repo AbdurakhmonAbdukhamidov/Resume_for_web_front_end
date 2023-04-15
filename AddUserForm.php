@@ -15,29 +15,34 @@
             <div class="title">
                 <TitleForPages :theme="'Add user'"/>
             </div>
-            
-            <div class="block1">
-                <div class="photo">
-                    <div class="img">
-                    <img src="/images/svg-file-format-variant.png" alt="">
+            <form action="" method="post">
+                <div class="block1">
+                    <div class="photo">
+                        <div class="img">
+                        <img src="/images/svg-file-format-variant.png" alt="">
+                        </div>
+                    <input type="file" name="file">
                     </div>
-                   <input type="file">
+                    <div class="inputs">
+                            <div class="name">
+                                <label for="">name</label>
+                                <input type="text" name="name">
+                            </div>
+                            <div class="surname">
+                                <label for="">surname</label>
+                                <input type="text" name="surname">
+                            </div>
+                            <div class="email_address">
+                                <label for="">email</label>
+                                <input type="email" name="email">
+                            </div>
+                            <div class="send">
+                                <input type="submit" value="Send" name="Send">
+                            </div>
+                        
+                    </div>
                 </div>
-                <div class="inputs">
-                    <div class="name">
-                     <label for="">name</label>
-                     <input type="text">
-                    </div>
-                    <div class="surname">
-                    <label for="">surname</label>
-                    <input type="text">
-                    </div>
-                    <div class="email_address">
-                    <label for="">email</label>
-                    <input type="text">
-                    </div>
-                </div>
-            </div>
+            </form>
 </div>
 
 <script src="/javaScript/AddUserForm.js"></script>

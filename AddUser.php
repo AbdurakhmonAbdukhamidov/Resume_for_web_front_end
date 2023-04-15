@@ -36,12 +36,24 @@
     <section class="main">
         
     <div class="container-main">
-            <div class="name">
+            <div class="name" style="display: flex;flex-direction: column;">
+            <div class="search" style="width: 100%;display: flex; justify-content: center; ">
+                        <form action="" method="post">
+                            <input type="text" name="" id="">
+                            <input type="submit" value="search">
+                        </form>
+                    </div>
               <h1>Add user</h1>
             </div>
             <div class="main">  
                  <div class="container1">
+                    
                      <div class="pluse">Add user</div>
+                 </div>
+
+                 <div class="container2">
+                    <p>Abdurahmon</p>
+                    <p>Abduhamidov</p>
                  </div>
             </div>
     </div>
